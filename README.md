@@ -1,16 +1,108 @@
-# React + Vite
+# 😂 Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and interactive **Meme Generator** built with **React and Vite**. The application fetches popular meme templates from the Imgflip API and allows users to customize the text displayed on their memes.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🖼️ Fetches meme templates dynamically from the Imgflip API
+* 🔤 Customize top and bottom meme text
+* 🎲 Generate a random meme image
+* ⚛️ Built using React functional components and hooks
+* 🔄 Dynamic state updates using React `useState`
+* 🌐 API data fetching using `useEffect` and the Fetch API
+* 📱 Simple and responsive user interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React**
+* **JavaScript**
+* **Vite**
+* **CSS**
+* **Imgflip API**
 
-## Expanding the Oxlint configuration
+## 🧠 React Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+This project helped me practice:
+
+* `useState` for managing component state
+* `useEffect` for fetching API data
+* Controlled form inputs
+* Event handling
+* Dynamic object properties
+* Fetch API and JSON parsing
+* Rendering dynamic data
+* Updating state based on previous state
+* Working with external APIs
+
+## 🎮 How It Works
+
+1. The application fetches available meme templates from the **Imgflip API** when the component loads.
+2. Enter text in the **Top Text** and **Bottom Text** fields.
+3. Click **Get a new meme image**.
+4. A random meme template is selected from the available templates.
+5. The selected image is displayed with the entered text.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/meme-generator.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd meme-generator
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## 🌐 API
+
+This project uses the **Imgflip API** to retrieve meme templates:
+
+```text
+https://api.imgflip.com/get_memes
+```
+
+No API key is required for retrieving the meme templates used by this application.
+
+## 📸 Preview
+
+*Add a screenshot or GIF of the application here.*
+
+## 🔮 Future Improvements
+
+* Add the selected text directly on top of the meme image
+* Add text styling and positioning controls
+* Add meme download functionality
+* Add loading and error states
+* Add mobile-friendly styling
+* Allow users to upload their own images
+* Add more customization options
+
+## 📚 Learning
+
+This project was built as part of my journey learning **React**, with a focus on state management, controlled inputs, React hooks, API integration, and dynamic user interfaces.
+
+---
+
