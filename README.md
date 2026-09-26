@@ -53,7 +53,7 @@ Make sure you have **Node.js** and **npm** installed.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/meme-generator.git
+git clone https://github.com/furqhan24/meme-generator.git
 ```
 
 Navigate to the project directory:
@@ -88,7 +88,7 @@ No API key is required for retrieving the meme templates used by this applicatio
 
 ## 📸 Preview
 
-*Add a screenshot or GIF of the application here.*
+![alt text](image.png)
 
 ## 🔮 Future Improvements
 
