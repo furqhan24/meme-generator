@@ -2,6 +2,8 @@
 
 A simple and interactive **Meme Generator** built with **React and Vite**. The application fetches popular meme templates from the Imgflip API and allows users to customize the text displayed on their memes.
 
+### 🚀 [Live Demo](https://furqhan24.github.io/meme-generator/) | 📂 [Source Code](https://github.com/furqhan24/meme-generator)
+
 ## ✨ Features
 
 * 🖼️ Fetches meme templates dynamically from the Imgflip API
